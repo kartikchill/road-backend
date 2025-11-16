@@ -1,39 +1,17 @@
-# Ignore model weights
+# IGNORE ALL HEAVY FOLDERS
 models/
-*.pt
-*.pth
-*.onnx
-
-# Ignore output folders
-outputs/
 runs/
-
-# Ignore video/image test files
-*.mp4
-*.avi
-*.mov
-*.jpg
-*.png
-*.jpeg
-*.webp
-
-# Python cache
+outputs/
 __pycache__/
-*.pyc
-*.pyo
+*.mp4
+*.pt
 
-# Ignore virtual env
+# Ignore python venv
 venv/
 .env/
+.venv/
 
-# Ignore IDE files
-.vscode/
-.idea/
-
-# Ignore railway build files
-build/
-dist/
-
-# Temp files
+# Ignore temporary files
 *.log
 *.tmp
+*.pickle
