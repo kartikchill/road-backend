@@ -1,0 +1,39 @@
+# Ignore model weights
+models/
+*.pt
+*.pth
+*.onnx
+
+# Ignore output folders
+outputs/
+runs/
+
+# Ignore video/image test files
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.png
+*.jpeg
+*.webp
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual env
+venv/
+.env/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore railway build files
+build/
+dist/
+
+# Temp files
+*.log
+*.tmp
